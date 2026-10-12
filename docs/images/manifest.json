@@ -1,0 +1,68 @@
+﻿[
+  {
+    "number": "00",
+    "filename": "img-00.jpg",
+    "source": "https://cdn.pixabay.com/photo/2016/11/29/02/10/caffeine-1866758_1280.jpg",
+    "usedFor": "favicon and gallery, latte"
+  },
+  {
+    "number": "01",
+    "filename": "img-01.jpg",
+    "source": "https://cdn.pixabay.com/photo/2022/02/12/21/22/toast-7009956_1280.jpg",
+    "usedFor": "menu, avocado toast"
+  },
+  {
+    "number": "02",
+    "filename": "img-02.jpg",
+    "source": "https://cdn.pixabay.com/photo/2023/11/14/17/58/coffee-8388244_1280.jpg",
+    "usedFor": "coffee section and menu, latte"
+  },
+  {
+    "number": "03",
+    "filename": "img-03.jpg",
+    "source": "https://cdn.pixabay.com/photo/2021/02/02/02/34/cafe-5972490_1280.jpg",
+    "usedFor": "team banner, guest in a cafe"
+  },
+  {
+    "number": "04",
+    "filename": "img-04.jpg",
+    "source": "https://cdn.pixabay.com/photo/2022/07/20/16/07/burger-7334481_1280.jpg",
+    "usedFor": "menu, cheeseburger"
+  },
+  {
+    "number": "05",
+    "filename": "img-05.jpg",
+    "source": "https://cdn.pixabay.com/photo/2016/11/29/04/58/coffee-1867429_1280.jpg",
+    "usedFor": "hospitality, people with coffee"
+  },
+  {
+    "number": "06",
+    "filename": "img-06.jpg",
+    "source": "https://cdn.pixabay.com/photo/2021/02/17/14/29/coffee-6024401_1280.jpg",
+    "usedFor": "gallery, coffee and cake"
+  },
+  {
+    "number": "07",
+    "filename": "img-07.jpg",
+    "source": "https://www.instagram.com/saji_society/reel/DdEBPUbzLXM/",
+    "usedFor": "hero, kept from Instagram"
+  },
+  {
+    "number": "08",
+    "filename": "img-08.jpg",
+    "source": "https://cdn.pixabay.com/photo/2022/08/06/20/46/coffee-shop-7369404_1280.jpg",
+    "usedFor": "gallery and visit, outdoor seating"
+  },
+  {
+    "number": "09",
+    "filename": "img-09.jpg",
+    "source": "https://cdn.pixabay.com/photo/2016/08/09/09/59/coffee-1580232_1280.jpg",
+    "usedFor": "menu, Mont Blanc"
+  },
+  {
+    "number": "10",
+    "filename": "img-10.jpg",
+    "source": "https://cdn.pixabay.com/photo/2021/09/06/01/13/coffee-6600644_1280.jpg",
+    "usedFor": "gallery, coffee being poured"
+  }
+]

@@ -1,0 +1,42 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { menuItems } from "../data/photos";
+import { site } from "../data/site";
+import { photoSrc } from "../lib/url";
+---
+
+<Base title={`Menu | ${site.name}`}>
+  <Header tone="solid" />
+  <main class="wrap menu-page">
+    <p class="kicker">Menu</p>
+    <h1>Coffee and a few plates.</h1>
+    <p>
+      A short list for now. The full list is still the Our Menu highlight on {site.handle}.
+    </p>
+    <p>{site.hours}</p>
+    <div class="cards menu-list">
+      {
+        menuItems.map((item) => (
+          <figure class="card">
+            <img src={photoSrc(item.file)} alt={item.name} />
+            <figcaption>
+              <span class="card-line">
+                <span class="card-name">{item.name}</span>
+                <span class="card-price">{item.price}</span>
+              </span>
+              <span class="card-detail">{item.detail}</span>
+            </figcaption>
+          </figure>
+        ))
+      }
+    </div>
+    <div class="visit-actions">
+      <a class="pill line" href={site.menuHighlight}>Our Menu highlight</a>
+      <a class="pill line" href={site.instagram}>Instagram</a>
+      <a class="pill line" href={site.linktree}>Contact</a>
+    </div>
+  </main>
+  <Footer />
+</Base>

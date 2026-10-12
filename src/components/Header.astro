@@ -1,0 +1,23 @@
+---
+import { site } from "../data/site";
+import { withBase } from "../lib/url";
+
+interface Props {
+  tone?: "overlay" | "solid";
+}
+
+const { tone = "overlay" } = Astro.props;
+---
+
+<header class:list={["site-header", tone === "solid" && "solid"]}>
+  <a class="wordmark" href={withBase()}>{site.name}</a>
+  <nav class="nav-links" aria-label="Page">
+    <a href={withBase("#story")}>Story</a>
+    <a href={withBase("#menu")}>Menu</a>
+    <a href={withBase("#gallery")}>Gallery</a>
+    <a href={withBase("#visit")}>Visit</a>
+  </nav>
+  <a class:list={["pill", tone === "solid" ? "line" : "solid-ghost"]} href={withBase("menu")}>
+    View menu
+  </a>
+</header>

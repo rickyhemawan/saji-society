@@ -1,0 +1,15 @@
+---
+import { site } from "../data/site";
+import { withBase } from "../lib/url";
+---
+
+<footer class="wrap site-footer">
+  <p>{site.name}</p>
+  <nav aria-label="Footer">
+    <a href={withBase("menu")}>Menu</a>
+    <a href={site.linktree}>Contact</a>
+    <a href={site.instagram}>Instagram</a>
+    <a href={site.maps}>Maps</a>
+  </nav>
+  <p>© {new Date().getFullYear()} {site.name}</p>
+</footer>
